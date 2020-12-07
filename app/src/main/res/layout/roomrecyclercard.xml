@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/phone_Cardview"
+    android:layout_width="380dp"
+    android:layout_height="400dp"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#FAF6F6"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="6dp">
+
+    <RelativeLayout
+        android:id="@+id/background_color"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:background="@color/card2"
+        android:padding="5dp"
+        android:layout_marginTop="10dp">
+
+
+        <ImageView
+            android:id="@+id/dub_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/dub" />
+
+        <TextView
+            android:id="@+id/room_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-6dp"
+            android:layout_marginEnd="130dp"
+            android:layout_marginBottom="5dp"
+            android:text="Double Bed"
+            android:textColor="#392525"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
